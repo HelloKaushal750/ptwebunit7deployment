@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-    res.send({"message":`base api point for the user ${process.env.NAME}`})
+    res.send({"message":`base api point for the user`})
 })
 
 app.get("/blogs",(req,res)=>{
